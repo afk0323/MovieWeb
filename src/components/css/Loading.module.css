@@ -1,0 +1,10 @@
+.loader {
+  width: 100%;
+  height: calc(100vh - 344px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+
+  color: #fff;
+}
