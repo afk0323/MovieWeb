@@ -58,7 +58,7 @@ function Nav() {
                 : {backgroundColor : "transparent"}}>
 
                 <div className={styles.title}>
-                    <Link to="/MovieLike" onClick={() => setFocusPath("")}>
+                    <Link to="/MovieWeb" onClick={() => setFocusPath("")}>
                         <strong style={{color : "#E50914"}}>NETFLEX</strong>
                     </Link>
                 </div>
