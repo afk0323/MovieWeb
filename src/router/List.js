@@ -23,7 +23,7 @@ function List() {
   const getMovies = async () => {
     const json = await (
       await fetch(
-        `https://yts.mx/api/v2/list_movies.json?page=${num}&${detail}&sort_by=year`
+        `https://yts.mx/api/v2/list_movies.json?page=${num}&${detail}&sort_by=download_count`
       )
     ).json();
     setMovies(json.data.movies);
